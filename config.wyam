@@ -6,6 +6,9 @@
 //theming
 #t CleanBlog
 
+Settings["title"] = "Geeksperiment";
+Settings["description"] = "Thoughts on code and dev stuff";
+
 Pipelines.Add("Blog posts",
 	ReadFiles("posts/*.md"),
 	FrontMatter(Yaml()),

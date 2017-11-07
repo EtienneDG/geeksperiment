@@ -1,10 +1,15 @@
+---
 Title: Javascript Rage Quit Cycle, aka my own JS Fatigue
-Published: 12/09/2017
-Tags: JS, react, fatigue
+permalink: javascript-rage-quit-cycle-aka-my-own-js-Fatigue
+date: 2017-09-12T18:01:52+00:00
+tags:
+  - JS
+  - react
+  - fatigue
 ---
 
 ## A bit of context
-I'm a fullstack developper...so yes : I write DB, back end and front end code with Microsoft stack, so mostly C# ASP.NET MVC and SQL Server for the back end (and part of the front because I like Razor :) ).
+I''m a fullstack developper...so yes : I write DB, back end and front end code with Microsoft stack, so mostly C# ASP.NET MVC and SQL Server for the back end (and part of the front because I like Razor :) ).
 
 A few years ago (2012) I played around with Angular (1.X), then abandonned it due to the lack of interest from other devs and lead tech in my workplace back then. I was was on the "JS is Evil" side and using Angular had an unexpected effect : I finally found JS quite appealing, not perfect still a bit obscure, but much more powerful and interesting that I would have thought.
 

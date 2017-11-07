@@ -1,0 +1,14 @@
+<div class="site-heading">
+    @if(Context.String(BlogKeys.Description) != null)
+    {
+        <h2 style="font-size:51px !important;">@Context.String(BlogKeys.Description)</h2>
+    }
+    @if(Context.String(BlogKeys.Intro) != null)
+    {            
+        @if(Context.String(BlogKeys.Description) != null)
+        {
+            <hr class="small">
+        }
+        <span class="subheading">@Context.String(BlogKeys.Intro)</span>
+    }
+</div>
