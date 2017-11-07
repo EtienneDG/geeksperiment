@@ -1,0 +1,20 @@
+//nugets
+#n Wyam.Markdown
+#n Wyam.Razor
+#n -p Wyam.Feeds
+
+//theming
+#t CleanBlog
+
+Pipelines.Add("Blog posts",
+	ReadFiles("posts/*.md"),
+	FrontMatter(Yaml()),
+	Markdown(),
+	WriteFiles(string.Format("{0}/index.html", @doc.String("RelativeFilePathBase"))),
+	Branch(
+		// Put the GenerateFeeds module inside a Branch module so that the feed
+		// documents don't get added to the set of output documents for this pipeline
+		GenerateFeeds(),
+		WriteFiles()
+	)
+);
