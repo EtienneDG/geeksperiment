@@ -1,6 +1,6 @@
 ---
 id: 172
-title: "What the BEEP?" or how to desactivate UC sound'
+title: What the BEEP? or how to desactivate UC sound
 date: 2013-09-06T10:42:23+00:00
 author: Etienne
 layout: post
